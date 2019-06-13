@@ -74,6 +74,10 @@ yarn release
 
 ## Changelog
 
+### 6.28.1
+
+- Fixed bug where custom `ExpandableSection` icons were showing wrong icon when using `defaultExpanded`.
+
 ### 6.28.0
 
 - Adds a new `delayUntilInteractive` prop to `AnalyticsProvider` that delays loading analytics scripts until the app is fully interactive. This helps ensure the best TTI and user experience.
