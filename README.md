@@ -17,7 +17,7 @@ create-react-storefront my-site
 
 ## License
 
-All rights reserved.
+React Storefront is licensed under the Apache 2.0 License.
 
 ## Contributing
 
@@ -77,6 +77,13 @@ yarn release
 ### 6.30.0
 
 - Adds a new `labelTag` prop to `BackNav`. This needed for analytics in some projects.
+
+### 6.29.0
+
+- Adds an `initialContent` prop to `SearchDrawer` that determines the content to display when the search field is blank.
+- Fixed bug where custom `ExpandableSection` icons were showing wrong icon when using `defaultExpanded`.
+- Fixed a bug where format was not being passed as a request param. This was introduced in 6.25.0
+- Fixed bug in `renderers/render` which caused injection of PWA components into proxied pages to fail. This was a regression introduced in 6.26.0
 
 ### 6.28.0
 

@@ -1,11 +1,11 @@
 {
   "name": "react-storefront",
-  "version": "6.28.0",
+  "version": "6.29.0",
   "description": "Build and deploy e-commerce progressive web apps in record time.",
   "browser": "src",
   "module": "./index.js",
   "author": "Moovweb",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "scripts": {
     "test:unit": "jest --runInBand",
     "test": "jest test.js --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!test/**/* && yarn test:browser",
