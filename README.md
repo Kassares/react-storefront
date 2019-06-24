@@ -74,9 +74,21 @@ yarn release
 
 ## Changelog
 
-### 6.30.0
+### 6.30.2
 
 - Adds a new `labelTag` prop to `BackNav`. This needed for analytics in some projects.
+
+### 6.30.1
+
+- `SearchDrawer` now handles a null value for `app.search.results` gracefully.
+
+### 6.30.0
+
+- Adds a `createSubmitURL` prop to `SearchDrawer`.
+- You can now define a set of `initialGroups` to display in the search drawer when the search field is blank.
+- Adds an `imageProps` prop to `ImageSwitcher`
+- Adds support for accessing the app state tree with React's `useContext` hook via the new `react-storefront/AppContext`.
+- Added a `withPersonalization` HOC and `usePersonalization` hook for late loading personalized data.
 
 ### 6.29.0
 
