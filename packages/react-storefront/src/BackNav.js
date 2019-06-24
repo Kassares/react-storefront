@@ -94,9 +94,13 @@ export default class BackNav extends Component {
     }),
 
     /**
-     * In some cases needed different tag (like h1 for analytics)
+     * Overrides the default HTML element used for the label (span).
      */
-    labelTag: PropTypes.string
+    labelComponent: PropTypes.string
+  }
+
+  static defaultProps = {
+    labelComponent: 'span'
   }
 
   switchLayout = layout => {
@@ -135,7 +139,7 @@ export default class BackNav extends Component {
   }
 
   render() {
-    const { text, classes, labelTag } = this.props
+    const { text, classes, labelComponent } = this.props
 
     return (
       <Paper className={classes.root}>
@@ -148,7 +152,7 @@ export default class BackNav extends Component {
           >
             <ArrowLeft />
           </span>
-          {React.createElement(labelTag || "span", {className: classes.label}, text)}
+          {React.createElement(labelComponent, {className: classes.label}, text)}
           {this.renderViewToggle()}
         </Typography>
       </Paper>

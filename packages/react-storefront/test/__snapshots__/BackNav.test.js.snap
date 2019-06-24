@@ -110,11 +110,11 @@ exports[`BackNav renders the view type switcher 1`] = `
 </Provider>
 `;
 
-exports[`BackNav render the corresponding tag if \`labelTag\` prop provided 1`] = `
+exports[`BackNav render the corresponding tag if \`labelComponent\` prop provided 1`] = `
 <Provider history={{...}}>
-  <WithStyles(inject-BackNav-with-history) text="Rugs" url="/rugs/1" labelTag="h1">
-    <inject-BackNav-with-history text="Rugs" url="/rugs/1" labelTag="h1" classes={{...}}>
-      <BackNav text="Rugs" url="/rugs/1" labelTag="h1" classes={{...}} history={{...}}>
+  <WithStyles(inject-BackNav-with-history) text="Rugs" url="/rugs/1" labelComponent="h1">
+    <inject-BackNav-with-history text="Rugs" url="/rugs/1" labelComponent="h1" classes={{...}}>
+      <BackNav text="Rugs" url="/rugs/1" labelComponent="h1" classes={{...}} history={{...}}>
         <WithStyles(Paper) className="RSFBackNav-root-1">
           <Paper className="RSFBackNav-root-1" classes={{...}} component="div" elevation={2} square={false}>
             <div className="MuiPaper-root-7 MuiPaper-elevation2-11 MuiPaper-rounded-8 RSFBackNav-root-1">

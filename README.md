@@ -76,7 +76,7 @@ yarn release
 
 ### 6.30.2
 
-- Adds a new `labelTag` prop to `BackNav`. This needed for analytics in some projects.
+- Adds a new `labelComponent` prop to `BackNav`, which allows you to override the default HTML element used to render the label.
 
 ### 6.30.1
 

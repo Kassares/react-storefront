@@ -42,10 +42,10 @@ describe('BackNav', () => {
   })
 
 
-  it('render the corresponding tag if `labelTag` prop provided', () => {
+  it('render the corresponding tag if `labelComponent` prop provided', () => {
     expect(mount(
       <Provider history={history}>
-        <BackNav text="Rugs" url="/rugs/1" labelTag="h1" />
+        <BackNav text="Rugs" url="/rugs/1" labelComponent="h1" />
       </Provider>
     )).toMatchSnapshot()
   })
