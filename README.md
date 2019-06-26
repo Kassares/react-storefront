@@ -74,9 +74,13 @@ yarn release
 
 ## Changelog
 
-### 6.30.2
+### 6.30.3
 
 - Adds a new `labelComponent` prop to `BackNav`, which allows you to override the default HTML element used to render the label.
+
+### 6.30.2
+
+- Fixed deprecation warning: `Please use require("history").createMemoryHistory instead of require("history/createMemoryHistory")`
 
 ### 6.30.1
 
